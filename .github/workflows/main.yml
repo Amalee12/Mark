@@ -1,4 +1,4 @@
-name: HK
+name: pycash
 
 on: 
   workflow_dispatch:
@@ -15,4 +15,3 @@ jobs:
       run: ./installchrome.ps1
     - name: Testing Website gUi
       run: python install.py
-Footer
